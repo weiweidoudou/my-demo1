@@ -695,7 +695,7 @@ textarea{
 	appearance:none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	height: 50px;
+	height: 24px;
 	margin-right: 6px;
 	border: 1px solid #cacbcb;
 	cursor: pointer;
