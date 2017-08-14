@@ -14,7 +14,9 @@ a{
 }
 
 
-
+body{
+	width: 1350px;
+}
 .clear:after,
 .clear:before{
 	content: "";
@@ -233,7 +235,9 @@ a{
 }
 .content-bottom .search select{
 	height: 24px;
+	appearance:none;
 	-webkit-appearance: none;
+	-moz-appearance:none;
 	border: 1px solid #d8d9db;
 	background: url(../img/arrowDownBlack.png) no-repeat 95% 50%;
 	cursor: pointer;
@@ -688,11 +692,15 @@ textarea{
 }
 
 .calendar-form select{
+	appearance:none;
 	-webkit-appearance: none;
-	height: 24px;
+	-moz-appearance: none;
+	height: 50px;
 	margin-right: 6px;
 	border: 1px solid #cacbcb;
 	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: '';
 }
 
 .calendar-form .year{
