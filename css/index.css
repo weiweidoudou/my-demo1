@@ -16,6 +16,8 @@ a{
 
 body{
 	width: 1350px;
+	margin: 0px auto;
+	background-color: grey;
 }
 .clear:after,
 .clear:before{
